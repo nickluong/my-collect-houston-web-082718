@@ -4,5 +4,6 @@ def my_collect(collection)
     collection[count] = yield(collection[count])
     count++
   end 
+    collection 
 end 
     
